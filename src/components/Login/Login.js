@@ -18,8 +18,6 @@ const Login = (props) => {
   }, [enteredEmail,enteredPassword])
   const emailChangeHandler = (event) => {
     setEnteredEmail(event.target.value);
-
-    
   };
 
   const passwordChangeHandler = (event) => {
