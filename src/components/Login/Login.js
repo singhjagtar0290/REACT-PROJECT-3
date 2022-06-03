@@ -49,6 +49,7 @@ const Login = (props) => {
       setFormIsValid(emailIsValid.isValid && passwordIsValid.isValid);
     }, 500);
 
+    
     return () => {
       console.log('CLEANUP')
       clearTimeout(identifier)
